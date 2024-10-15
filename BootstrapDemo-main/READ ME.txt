@@ -1,0 +1,689 @@
+Step:1 Bootstrap files Setup and Making of navigation Menu.
+***********************************************************
+
+First you can see I have one folder here and in this folder I have one more folder called images.
+
+Let me open this one and you can see I have so many images here that I will be using on my website.
+
+Let's come back to this folder and here will create a new file and it will rename it as index.html.
+
+
+I will open my html file with any text editor I am using VS Code.
+
+Here you can use any text editor first will write some basic html structures.
+
+So here I am writing a html open and close
+
+then we will write head open and close and in the head we will add one title.
+
+So the title is your go with template.Easy tutorials
+
+after a head we will write body open and close
+
+next will come back to the folder again.
+
+And here will create a new file and this time I'm writing the file image a style.css says let's open
+
+this file with text editor and here will write this code margin 0 and padding 0.
+
+Now we will connect the html file with the CSS with this line of code.
+
+I am writing Link rel as talented iterative and the phylum that is a stylus here says
+
+here will add one more line meter name is  viewFort content width equal to device width
+
+initially scale 1.0 so it will help us to make the web page responsive
+
+because we will use the bootstrap so open thge website get a bootstrap dot com then and scroll down and
+
+just copy this CSS link.
+
+Just copy everything and paste it here in the head.
+
+We can remove this part.
+
+It is not compulsory.
+
+Let's come back to the page again and just copy all these script copy and paste it here.
+
+Again we can remove this part and the second script.
+
+We don't need just delete this one
+
+let me align this one so that you can see clearly
+
+so after adding all these links and a script.
+
+Let's come to the body area and here will create one section and for this section I am writing the class
+
+name header let us create one div in this header and the class name I'm writing container it is a bootstrap
+
+class that will add someone space from both sides now will come to the bootstrap website again then
+
+click on documentation then click on component then click on never here is called on and we will copy
+
+code from this part just copy this one and paste it hear
+
+after that I will open this html file with Google Chrome so that you can see these navigation menu
+
+at the top
+
+let's come back to the code again and first we can remove this part
+
+and let's remove this part and this one also and this one also know it looks very simple.
+
+Let me change the text here.
+
+First one is home.
+
+And the second one is services.
+
+And the next is placing and the fourth one is about us.
+
+Let us duplicate this one to create a fifth menu.
+
+So it will be.
+
+Contact us let us reload the web page and you can see all this menu over here.
+
+No we have to shift all this menu in the right side.
+
+So here we will add ml-auto save these changes and reload  page so that you can see
+
+all the navigation menu in the right side.
+
+Let me change the screen size so that you can see these menus are very responsive.
+
+But it is a line in the left side.
+
+So here we will add texture like that it refreshed this one and you can see this dict in the right side
+
+nor will copy this classroom header and write it into the CSS file
+
+here we will add background when background color I am writing and Let's reload debate page so that
+
+you can see dark background color for this navigation but
+
+next we'll copy this class name never write it here and here will add some space from top.
+
+So I'm adding padding top 20 pixel
+
+so you can see some space from the top
+
+next we will copy this classroom nav item write it into this CSS fine and here will add margin
+
+left and margin bottom
+
+next.
+
+Just copy this class name nav link so here we will change the color it will be white and font size let's
+
+write 12 pixel will add 1 padding also 0 0 5 pixel 0 display let us write unset
+
+Let's reload the web page and you can see these menu in the white color
+
+now will add one logo here so remove this one and add IMG source and the logo file name
+
+now reload a page you can see one logo on this Web page it is big.
+
+So just copy this class name and write it here then write IMG so we will set the word for this logo
+
+which will be 125 pixel.
+
+So now you can see a small logo
+
+let me change the screen size so that you can see this toggle menu in dark color.
+
+So instead of this expand we will add one icon for that will come to the Google and search for font
+
+awesome CDN.
+
+Just open this link and copy this CDN link come to the head duplicate this line.
+
+And instead of a style.css just paste the url that you had copied.
+
+Again search  form fontawesome icons
+
+open this Web site.
+
+And here you can find lots of icon that you can use on Web site.
+
+So here I will search for bars just open this one and copy this one line of code and this code we can
+
+place on html file write it here and just remove this part that's it.
+
+See this these changes and reload web page so that you can see this icon over here it is too small.
+
+So we'll copy this class name and write it here.
+
+And we'll change the color white and font size.
+
+Let's write 40 pixel
+
+Let's reload the web page and you can see this icon in the white color its font is still small.
+
+Let's come back and here will add important.
+
+Now you can see the increased font size.
+
+Here you can see this outline also to remove this one.
+
+Just come back and copy this last name right here in the states file.
+
+Then we'll write border zero outline 9
+
+padding initial
+
+and after reloading this page you can see there is no outline
+
+and this menu is working properly for a small device and large device also now will come back to the
+
+html file again and remove this active and will write active overhear so I'm writing active home
+
+just copy this class name and write it into this CSS file.
+
+And this time will add Border bottom to pixel solid and this white color after reloading this page you
+
+can see.
+
+Bottom line for the first menu now just copy the NAV link and write it here and here will right hover
+
+and again will add the same thing.
+
+Bottom Bottom two pixels solid and white color save these changes and refresh debate page so that you
+
+can see this underline for all this menu when I will take cursor over this menu
+
+so finally we have completed the navigation menu.
+
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap" rel="stylesheet">
+
+Step 2:
+Create banner Section of Website:
+**********************************
+
+Now we have to create two column.
+
+So first I'm creating one div and the class name I am using row.
+
+This is bootstrap class.
+
+And in this row will create a div.
+
+And the class name I'm using col-md-6 because we have 12 grid often in bootstrap.
+
+So I'm using sixth grid in the first column.
+
+And let's duplicate this one to create this second column.
+
+Let's come to the first column.
+
+And here we will add one title.
+
+So I am using H1
+
+so the title is.Let's start the magic
+
+just reload the web page and you can see this title over this web page.
+
+Next we'll add some text here.
+
+So I am using p tag
+
+and this is our text
+
+here will add to br tag to change the line
+
+so that you can see this a small description also.
+
+For this web page
+
+know will add one class name banner just copy this class name and write it into the CSS file.
+
+Next I am writing magin-top 8 color will be white and reload web page so that you can see all
+
+these content in the white color
+
+next.
+
+Just copy it again and write at h1
+
+let's add some margin for this title also.
+
+80px zero and fifty pixel font weight it will be six hundred and font size I am writing 50 pixel
+
+so after reloading this page you can see even more space around this title
+
+no let's come to the second column and in the second column we will add one image so I am using I am
+
+IMG source and the image file path
+
+and here will add one more class name image-fluid which is bootstrap class and after reloading this
+
+page you can see this image in right side
+
+no come back to CSS file and copy this one write IMG.
+
+So here we will fix the height of this image.
+
+So I am writing max height 5 and 8 pixel after loading this page you can see even a small image on this
+
+Web page here we will add text center so that you can see this image in this center for the right column
+
+now let's come to the first column and here we will add one button.
+
+So I am using a iterative
+
+and the button text will be joined free
+
+let's add one class name also.
+
+So I am writing class name express-btn let's duplicate this one and this time I'm writing the button
+
+text explored more and move this class name
+
+so after reloading this page you can see two links here.
+
+After this description so come back to this CSS file and just copy this banner then write a.
+
+So for this A will add padding called pixel width 150 pixel display it will be block
+
+background.
+
+Let's add one background color
+
+text decoration and it will be none
+
+color white border 2 pixel white color
+
+border radius it will be 5 pixel
+
+text align center
+
+let's add Margin top 30 pixel and font weight bold
+
+and font size will be 14 pixel.
+
+So after reloading this page you can see two buttons over here.
+
+Let's change it to display inline block
+
+so that you can see what button in this same line
+
+let's copy again and then we'll write hover color it will be white.
+
+And now we'll copy this class name express-btn.
+
+Written right here
+
+background white color
+
+color it will be black
+
+margin-right five pixel.
+
+Now you can see background white for the first button and the second button background is transparent.
+
+Let's remove this one font weight
+
+and now it looks beautiful.
+
+Step3:Create Services Section with hover effect:
+*************************************************
+
+So after completing the header section will create one more section and the class name.
+
+I'm using service
+
+first will create one div and the class name I'm using.
+
+Container
+
+and let's write one title in h2.
+
+So the title I am writing We provide wide range of services here will add br tag to change the line.
+
+Let's reload to be a page and you can see these titles at the bottom.
+
+Now we'll add some small description in P tag
+
+so this is our small description.
+
+let reload web page and you can see this description on this web page
+
+let's copy this class name services and come to this CSS file.
+
+First we will write one comment here
+
+then write this class name and for this one will margin 75 pixel from top and bottom and 0 from
+
+left and right
+
+now you can see some space around this.Text
+
+for this is h2 am writing  class name.
+
+Title
+
+and for this p tag class name  is subtitle let's copy this class name and come to this CSS file.
+
+Text-align. It will be center
+
+font-weight bold bottom 30 pixel
+
+just copy everything and write subtitle here.
+
+This font size.
+
+We can remove and margin-bottom.
+
+It will be 70 pixel and font size 15 pixel.
+
+Now you can see these titles and a small description at this center.
+
+Next we have to create three column.
+
+So first we'll create one div and the class name I'm using row now for the first column I'm creating
+
+div and the class name I'm using col-md-4 for lets duplicated two times.
+
+So total.
+
+We have three column in the first column.
+
+I am creating one more div and the classname.
+
+I am writing service box
+
+and here first will add one small image so IMG source and the image file but next will add a small
+
+title in it h6 tag so the title is express delivery
+
+and when a small text in P tag
+
+just saved these changes and reload web page.
+
+Now you can see a small icon and these text in the first column
+
+now will add one icon here.
+
+So just copy and paste it here and will chase these.
+
+icon name
+
+so it is arrow right.
+
+So you can see this black color of small icon
+
+next to it.
+
+Copy this class name.
+
+Service box.
+
+And write it into the season's file.
+
+Here will add some padding 0 and 35 pixel cursor it will be pointer
+
+margin bottom let's .
+
+add 10 pixel just copy and paste it again then write IMG.
+
+So for this image which will be 60 pixel and margin top 65 pixel margin bottom 45 pixel
+
+now again.
+
+Copy this one and remove this IMG and write h6 for this title.
+
+Margin bottom will be 40 pixel and font-weight will bold
+
+let's copy it again and here will write p for the text font size will be 14 pixel and color #808080
+
+reload every page and you can see a better alignment for this text an image.
+
+Let me change the color code
+
+not just copy the class name for this icon right here.
+
+And here will add font size to increase the font size of this icon then Martin top to add some space
+
+and will add margin bottom also 35 pixel
+
+cursor will be pointer
+
+so you can see increased font size for this icon and some space also.
+
+Know just copy the service box and paste it in the second column and change the icon and am changing
+
+the title also.
+
+Let us paste it in the third column also.
+
+And this is the third image.
+
+And one different title.
+
+Now you can see three different column
+
+now will copy the service box.
+
+Class name here.
+
+Then right.
+
+hoever
+
+so when we will hover the background color will be different.
+
+So here I am writing the background.
+
+Border radius it will be five pixel
+
+color white
+
+will add some box shadow also.
+
+Now you can see different background when I will take cursor over this service
+
+we have to change the text color also.
+
+So just copy it again and then write p color it will be white.
+
+Now you can see white color for this small description also let us add some changes in so just come
+
+back to the CSS file and in the service box will at transition point for second
+
+know we have to add color in the second service box.
+
+So here we will add one class name active service and just copy this one and come to the CSS file
+
+write it here.
+
+then p
+
+color will be white
+
+and here we will add this class name.
+
+Now you can see background color in this second service.
+
+Know I want to change the font style for this web page.
+
+So welcome to the Google and search for Google font opened this website.
+
+And here you can search different font style that you want to use on your Web site so I will search
+
+for one font name 'Montserrat'
+
+just opened this one
+
+and click on this plus icon and here we can customize what font style you want
+
+then copy this link
+
+and add it into the head
+
+just come back to the website again and copy this line of code and add it into this CSS's file.
+
+So we will add it here and refresh web Page so that you can see different font family on this web
+
+page.
+
+Let me change the screen side so that you can see all these sections are completely responsive.
+
+Step-4:
+
+
+
+Now let's come back to the html file again and here will create one new section and the class
+
+name.I'm writing feature
+
+next will add one div and the class name.
+
+I'm writing container
+
+let's add one more div and the class name is row because we need to column.
+
+So the first column I'm writing col-md-6 let us duplicate it to create this second column.
+
+know let us come to the first column and here will add one image.
+
+So I am writing IMG source and the image file but
+
+let's refresh the web page and you can see this big image on this web page
+
+let us copy the class name and come to this CSS file.
+
+First will write one commentator now add this class name and here will add margin.
+
+200 pixel from top and bottom and zero from left and right.
+
+So that you can see some space.
+
+Let's copy it again.
+
+Then write IMG Max width.
+
+It will be 77 percent and cursor.
+
+It will be pointer
+
+so you can see a small image here.
+
+Now come back to the second column and here will add one title so I am using h2 and the title is.
+
+We always love to hear from our customer.
+
+Here will add br to change the line
+
+let's add one small description also.
+
+So just copy and pasted and here will add to be our
+
+next we will create one button.
+
+So I am using a iterative and the button text.
+
+It will be watched.
+
+Now let's reload the web page and you can see this title small this will send in one link.
+
+Now come to this.
+
+Yes that's fine.
+
+Just copy this one and write two for the title.
+
+So here I am adding my Zen top and foreign to it
+
+line height
+
+so you can see some space from the top and font weight.
+
+Also
+
+just copy it again.
+
+Then write P.
+
+here also will add margin top and my then bottom
+
+color.
+
+It will be different font size 14 pixel line height 18 pixel
+
+and you can see someone space around this a small description.
+
+Let's copy it again.
+
+Then write a for the button so it will be 120 pixel padding 15 pixels 10 pixel display.
+
+It will be block
+
+background and this color
+
+text Dickerson will be none
+
+color.
+
+It will be white
+
+border radius by pixel and text align center
+
+font weight bold and font size.
+
+It will be 14 pixel
+
+let's add bulk shadow also
+
+and you can see beautiful button over her
+
+to create the next text and we will just copy this one and paste it here.
+
+Flash will change the class name so it is explored.
+
+Remove the first column from here and added here so in the first column we have some text and image
+
+in the second column.
+
+Let's change the title also.
+
+And button text also explode No no you can see this section on this webpage
+
+let's come back to the estimate file and copy this class name
+
+come to DC ISIS file and added here
+
+that it
+
+let's add this class name here also class name and B and here also
+
+so that you can see a style for this button
+
+let's copy this one and aged here.
+
+And here will change the class name so the class name is explode so much in top it will be 50 pixel
+
+in the image will add one class name so the class name is I am G float
+
+so that you can see image alignment is perfect no no it will change the screen size so that you can
+
+see we need to add some space in the bottom so come back to this ISIS file and here just copy this one
+
+explode a and here will add margin bottom it will be 50 pixel and reload the web page.
+
+Now you can see proper space after this button this image is not in the center so let's come to the
+
+estimate file and here we will add
+
+text center so that you can see this image is now in center.
+
+
+
